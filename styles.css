@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-self: center;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 25%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.email {
+    text-align: left;
+    margin-bottom: 7px;
+    
+}
+
+.emailtextbox {
+    padding: 5px 3px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.password-forgot {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.password {
+    margin-left: 34px;
+    margin-right: 110px;
+}
+
+.forgot {
+    text-decoration: none;
+    color: blue;
+}
+
+.passwordtextbox {
+    padding: 5px 3px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.button1 {
+    background-color: #ffc800;
+    padding: 5px 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.button1:hover {
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.needbox {
+    display: flex;
+    align-items: center;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid blue;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.need {
+    text-decoration: none;
+    color: blue;
+}
+
+.box3 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 25%;
+}
+
+.new {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+hr {
+    flex-grow: 1;
+}
+
+p {
+    margin: 0px 10px;
+}
+
+.button2 {
+    padding: 5px 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+
+.button2:hover {
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.hrfoot {
+    margin-bottom: 40px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.conditions, .privacy, .help {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: blue;
+}
+
+h6 {
+    font-weight: 400;
+}
